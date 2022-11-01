@@ -1,0 +1,79 @@
+@font-face {
+    font-family: FastFuriousFont;
+    src: url(Antique-Olive-Std-Nord-Italic.ttf);
+}
+
+body {
+  background-color: lightgreen;
+  font-size: 32px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 2rem;
+  
+}
+
+header {
+  text-align: center;
+  margin: 3rem 5px;
+
+}
+
+
+img {
+  width: 50%;
+  border-radius: 1em;
+  margin: 5px;
+  aspect-ratio: 16/9;
+  
+}
+
+.family-photo {
+  width: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+#quote-title:hover {
+  background-color: rgb(170, 0, 43);
+}
+
+#quote-of-the-day {
+    background-color: lightgreen;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2rem;
+}
+
+#dom-adventures {
+  margin-top: 3rem;
+}
+
+#Quote-day {
+    appearance: auto;
+    writing-mode: horizontal-tb !important;
+     font-size: 32px;
+      text-rendering: auto;
+    color: blueviolet;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: lightcoral;
+    margin: 0em;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonborder;
+    border-image: initial;
+}
+footer {
+    text-align: center;
+    margin: 3rem 5px;
+}
